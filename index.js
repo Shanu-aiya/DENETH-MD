@@ -73,16 +73,35 @@ require("./plugins/" + plugin);
 });
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
+        
+let up = `𝘋𝘌𝘕𝘌𝘛𝘏-𝘔𝘋 𝘉𝘖𝘛 𝘊𝘖𝘕𝘕𝘌𝘊𝘛𝘌𝘋*
 
-let up = `𝘕𝘌𝘛𝘏𝘜 𝘔𝘋 𝘉𝘖𝘛 𝘊𝘖𝘕𝘕𝘌𝘊𝘛𝘌𝘋*
+_Type .menu For Get Bot Menu_
 
-> _.Menu = Get Bot All Commands_ ⤵
+_Type .settings For Customize Bot Settings Work For Owner Only_
 
-> _.Settings = Customize Bot Settings Work For Owner Only._❄️
+ʙᴏᴛ ꜰᴇᴀᴛᴜʀᴇꜱ ✔️
 
-𝘉𝘖𝘛 𝘖𝘞𝘕𝘌𝘙 𝘉𝘠 𝘕𝘌𝘛𝘏𝘔𝘐𝘒𝘈 𝘔𝘈𝘐𝘕
+• DOWNLOAD MENU
+• OWNER MENU
+• GROUP MENU
+• MOVIE MENU
+• AI MENU
+• FUN MENU
+• OTHER MENU
+• SEARCH MENU
+• CONVERT MENU
 
-https://wa.me/94704227534`;
+ꜰᴏʟʟᴏᴡ ᴏɴ ᴡʜᴀᴛꜱᴀᴘᴘ 🪀
+https://whatsapp.com/channel/0029Vamo0kT2ER6qNXgykO0B
+
+​🇯​​🇴​​🇮​​🇳​ ​🇧​​🇪​​🇹​​🇦​ ​🇹​​🇪​​🇸​​🇹​​🇮​​🇳​​🇬​ ​🇬​​🇷​​🇴​​🇺​​🇵​⚡🚀
+https://chat.whatsapp.com/JzM1qIe9Dm401fxkIKpZNP
+
+ᴄᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ👨‍💻
+https://wa.me/94761864425
+
+> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴇɴᴇᴛʜ-xᴅ ᴛᴇᴄʜ`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/de82e3.jpg` }, caption: up })
 
@@ -100,7 +119,7 @@ await conn.readMessages([mek.key])
 //=========autobio=======//
 if (config.AUTO_BIO === 'true'){
                await
-conn.updateProfileStatus(`𝗡𝗘𝗧𝗛𝗨 𝗠𝗗 💗 𝗦𝘂𝗰𝗰𝗲𝘀𝗳𝘂𝗹𝗹𝘆 𝗖𝗼𝗻𝗻𝗲𝗰𝘁𝗲𝗱➤ 𝗧𝗵𝗶𝘀 𝗗𝗲𝘃𝗶𝗰𝗲 𝗜𝘁 𝗛𝗮𝘃𝗲 𝗕𝗲𝗲𝗻 𝗥𝘂𝗻𝗻𝗶𝗻𝗴 𝗙𝗼𝗿 ⚡💻`)
+conn.updateProfileStatus(`𝗗𝗘𝗡𝗘𝗧𝗛 𝗠𝗗 💗 𝗦𝘂𝗰𝗰𝗲𝘀𝗳𝘂𝗹𝗹𝘆 𝗖𝗼𝗻𝗻𝗲𝗰𝘁𝗲𝗱➤ 𝗧𝗵𝗶𝘀 𝗗𝗲𝘃𝗶𝗰𝗲 𝗜𝘁 𝗛𝗮𝘃𝗲 𝗕𝗲𝗲𝗻 𝗥𝘂𝗻𝗻𝗶𝗻𝗴 𝗙𝗼𝗿 ⚡💻`)
 }
 const m = sms(conn, mek)
 const type = getContentType(mek.message)
@@ -166,12 +185,12 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
             
 //========OwnerReact========            
          
-if(senderNumber.includes("94787072548")){
+if(senderNumber.includes("94763197926")){
 if(isReact) return
 m.react("🌼")
 }       
  
-if(senderNumber.includes("94704227534")){
+if(senderNumber.includes("94761864425")){
 if(isReact) return
 m.react("👨‍💻")
 }
@@ -226,7 +245,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("hey,DARK-NETHU-MD bot started✅");
+res.send("hey,DENETH-MD bot started✅");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
